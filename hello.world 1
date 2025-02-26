@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# ctrl+r --> save this is only for info purpose. not part of code.
+# Author - vamsikalyan
+# Team - Devops
+echo "hello world" 
+echo "hello universe"
