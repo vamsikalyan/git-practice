@@ -1,7 +1,7 @@
 # git-practice
 
 git clone
-git add .
+git add.;
 git status
 git commit -m "Intial commit"
 git push
