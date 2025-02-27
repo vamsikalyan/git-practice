@@ -7,4 +7,3 @@ git commit -m "Intial commit"
 git push
 git config --global user.email
 git config --global user.name
-git pull
