@@ -7,7 +7,7 @@ VALIDATE(){
     if [ $1 -ne 0 ]
     then 
         echo "$2 is failed..."
-        exit1
+        exit 1
         echo "$2 is success..."
      fi    
 }
@@ -18,7 +18,7 @@ then
      exit 1
 fi
 
-sudo list installed git 
+list installed git 
 
 VALIDATE $? "Lisiting git"
 
