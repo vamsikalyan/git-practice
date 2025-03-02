@@ -7,10 +7,10 @@ do
    dnf list installed $package
    if [ $? -ne 0 ]
    then
-       echo "$package is not installed, goint to install it.
+       echo "$package is not installed, goint to install it"
        dnf install $package -y
        VALIDATE $? "Installing $package"
-   else
+   else    
        echo "$package is already installed..nothing to do"
    fi
 done
