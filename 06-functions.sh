@@ -7,7 +7,7 @@ VALIDATE(){
     if [ $1 -ne 0 ]
     then 
         echo "$2 is failed..."
-        exit 1
+        exit1
         echo "$2 is success..."
      fi    
 }
@@ -15,7 +15,7 @@ VALIDATE(){
 if [ $USERID -ne 0 ]
 then 
      echo "please run this script with root privileges"
-     exit 1
+     exit1
 fi
 
 dnf list installed git 
