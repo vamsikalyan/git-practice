@@ -1,7 +1,7 @@
 #!/bin/bash
 
-  
-# sh 08-loops.sh git mysql postfix nginx 
+
+# sh 08-loops.sh git=1:2.43.0-1ubuntu7 mysql postfix nginx 
 for package in $@ # refers to all arguments to passed it.
 do  
    dnf list installed $package
